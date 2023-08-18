@@ -28,10 +28,10 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.BtnMostrarTitulo = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -42,13 +42,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.BtnMostarLeyendas = new System.Windows.Forms.Button();
             this.GroupBoxDatos = new System.Windows.Forms.GroupBox();
+            this.BtnAreasMenos = new System.Windows.Forms.Button();
+            this.BtnAreasMais = new System.Windows.Forms.Button();
             this.BtnDatosMenos = new System.Windows.Forms.Button();
             this.BtnDatosMais = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnCambiar = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.BtnAreasMais = new System.Windows.Forms.Button();
-            this.BtnAreasMenos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.GroupBoxApariencia.SuspendLayout();
             this.GroupBoxDatos.SuspendLayout();
@@ -71,52 +71,52 @@
             // chart1
             // 
             this.chart1.BackColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisX.IsLabelAutoFit = false;
-            chartArea2.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea2.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea2.AxisX.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX.MajorGrid.Enabled = false;
-            chartArea2.AxisX.MajorGrid.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX.MajorTickMark.Enabled = false;
-            chartArea2.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea2.AxisX.TitleForeColor = System.Drawing.Color.White;
-            chartArea2.AxisX2.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            chartArea2.AxisY.IsLabelAutoFit = false;
-            chartArea2.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea2.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea2.AxisY.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisY.MajorGrid.Enabled = false;
-            chartArea2.AxisY.MajorTickMark.Enabled = false;
-            chartArea2.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            chartArea2.AxisY2.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            chartArea2.BackColor = System.Drawing.Color.Transparent;
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.BackColor = System.Drawing.Color.Transparent;
-            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend2.Enabled = false;
-            legend2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            legend2.ForeColor = System.Drawing.Color.White;
-            legend2.IsTextAutoFit = false;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea1.AxisX.IsLabelAutoFit = false;
+            chartArea1.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea1.AxisX.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX.MajorGrid.Enabled = false;
+            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX.MajorTickMark.Enabled = false;
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisX.TitleForeColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            chartArea1.AxisY.IsLabelAutoFit = false;
+            chartArea1.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea1.AxisY.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY.MajorGrid.Enabled = false;
+            chartArea1.AxisY.MajorTickMark.Enabled = false;
+            chartArea1.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            chartArea1.AxisY2.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            chartArea1.BackColor = System.Drawing.Color.Transparent;
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.BackColor = System.Drawing.Color.Transparent;
+            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend1.Enabled = false;
+            legend1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            legend1.ForeColor = System.Drawing.Color.White;
+            legend1.IsTextAutoFit = false;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(17, 17);
             this.chart1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(564, 407);
             this.chart1.TabIndex = 2;
             this.chart1.Text = "chart1";
-            title2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            title2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            title2.Name = "Title1";
-            title2.Text = "Graficas";
-            title2.Visible = false;
-            this.chart1.Titles.Add(title2);
+            title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            title1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            title1.Name = "Title1";
+            title1.Text = "Graficas";
+            title1.Visible = false;
+            this.chart1.Titles.Add(title1);
             // 
             // GroupBoxApariencia
             // 
@@ -212,6 +212,34 @@
             this.GroupBoxDatos.TabStop = false;
             this.GroupBoxDatos.Text = "Datos";
             // 
+            // BtnAreasMenos
+            // 
+            this.BtnAreasMenos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAreasMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAreasMenos.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnAreasMenos.Location = new System.Drawing.Point(8, 144);
+            this.BtnAreasMenos.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.BtnAreasMenos.Name = "BtnAreasMenos";
+            this.BtnAreasMenos.Size = new System.Drawing.Size(48, 32);
+            this.BtnAreasMenos.TabIndex = 13;
+            this.BtnAreasMenos.Text = "-";
+            this.BtnAreasMenos.UseVisualStyleBackColor = true;
+            this.BtnAreasMenos.Click += new System.EventHandler(this.BtnAreasMenos_Click);
+            // 
+            // BtnAreasMais
+            // 
+            this.BtnAreasMais.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAreasMais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAreasMais.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnAreasMais.Location = new System.Drawing.Point(65, 144);
+            this.BtnAreasMais.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.BtnAreasMais.Name = "BtnAreasMais";
+            this.BtnAreasMais.Size = new System.Drawing.Size(42, 32);
+            this.BtnAreasMais.TabIndex = 12;
+            this.BtnAreasMais.Text = "+";
+            this.BtnAreasMais.UseVisualStyleBackColor = true;
+            this.BtnAreasMais.Click += new System.EventHandler(this.BtnAreasMais_Click);
+            // 
             // BtnDatosMenos
             // 
             this.BtnDatosMenos.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -240,6 +268,16 @@
             this.BtnDatosMais.UseVisualStyleBackColor = true;
             this.BtnDatosMais.Click += new System.EventHandler(this.BtnDatosMais_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 120);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 18);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Áreas";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -263,44 +301,6 @@
             this.BtnCambiar.Text = "Cambiar";
             this.BtnCambiar.UseVisualStyleBackColor = true;
             this.BtnCambiar.Click += new System.EventHandler(this.BtnCambiar_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 120);
-            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 18);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Áreas";
-            // 
-            // BtnAreasMais
-            // 
-            this.BtnAreasMais.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnAreasMais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAreasMais.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BtnAreasMais.Location = new System.Drawing.Point(65, 144);
-            this.BtnAreasMais.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
-            this.BtnAreasMais.Name = "BtnAreasMais";
-            this.BtnAreasMais.Size = new System.Drawing.Size(42, 32);
-            this.BtnAreasMais.TabIndex = 12;
-            this.BtnAreasMais.Text = "+";
-            this.BtnAreasMais.UseVisualStyleBackColor = true;
-            this.BtnAreasMais.Click += new System.EventHandler(this.BtnAreasMais_Click);
-            // 
-            // BtnAreasMenos
-            // 
-            this.BtnAreasMenos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnAreasMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAreasMenos.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BtnAreasMenos.Location = new System.Drawing.Point(8, 144);
-            this.BtnAreasMenos.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
-            this.BtnAreasMenos.Name = "BtnAreasMenos";
-            this.BtnAreasMenos.Size = new System.Drawing.Size(48, 32);
-            this.BtnAreasMenos.TabIndex = 13;
-            this.BtnAreasMenos.Text = "-";
-            this.BtnAreasMenos.UseVisualStyleBackColor = true;
-            this.BtnAreasMenos.Click += new System.EventHandler(this.BtnAreasMenos_Click);
             // 
             // Form1
             // 

@@ -32,3 +32,8 @@ D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\obj\Debug\charts.cspr
 D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\obj\Debug\charts.csproj.CoreCompileInputs.cache
 D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\obj\Debug\charts.exe
 D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\obj\Debug\charts.pdb
+D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\bin\Debug\charts.exe.manifest
+D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\bin\Debug\charts.application
+D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\obj\Debug\charts.TrustInfo.xml
+D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\obj\Debug\charts.exe.manifest
+D:\Repositórios GitHub\ControleAcademico\Aplicacao\charts\obj\Debug\charts.application
