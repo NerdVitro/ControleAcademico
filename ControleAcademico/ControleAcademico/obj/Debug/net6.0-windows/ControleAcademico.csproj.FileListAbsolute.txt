@@ -1,0 +1,17 @@
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\bin\Debug\net6.0-windows\ControleAcademico.exe
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\bin\Debug\net6.0-windows\ControleAcademico.deps.json
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\bin\Debug\net6.0-windows\ControleAcademico.runtimeconfig.json
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\bin\Debug\net6.0-windows\ControleAcademico.dll
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\bin\Debug\net6.0-windows\ControleAcademico.pdb
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.csproj.AssemblyReference.cache
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.Form1.resources
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.csproj.GenerateResource.cache
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.AssemblyInfoInputs.cache
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.AssemblyInfo.cs
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.csproj.CoreCompileInputs.cache
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.dll
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\refint\ControleAcademico.dll
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.pdb
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ControleAcademico.genruntimeconfig.cache
+D:\Repositórios GitHub\ControleAcademico\ControleAcademico\ControleAcademico\obj\Debug\net6.0-windows\ref\ControleAcademico.dll
