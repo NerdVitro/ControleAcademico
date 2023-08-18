@@ -1,21 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BoItRv6RujeICx8tjPSmf/ErkF1tMF6fuKzLwSFKJlsfZjCKo47anhvHqh7MUpESFwokOg23MLthFYjNQdqxHQ==",
+  "dgSpecHash": "Lr7nYLh/vwdTIEydql9JRCH1apiUIJRMWrxT15Hcc4v2j/b1jag3ryyB2ow2Z5T+xoUJanPRNfC/ZJ+MMSG4cw==",
   "success": true,
   "projectFilePath": "D:\\Repositórios GitHub\\ControleAcademico\\ControleAcademico\\ControleAcademico\\ControleAcademico.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\vitor souza\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512"
-  ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'LiveCharts 0.9.7' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net6.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "LiveCharts",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [],
+  "logs": []
 }
